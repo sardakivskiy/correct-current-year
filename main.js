@@ -20,5 +20,6 @@ buttonNode.addEventListener('click', function() {
         answerNode.style.color = '#16d406';
     } else {
         answerNode.innerHTML = errorAnswer;
+        answerNode.style.color = '#ff0000';
     }
 });
